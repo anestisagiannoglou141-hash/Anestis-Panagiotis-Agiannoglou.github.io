@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name - CV & Blog</title>
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; max-width: 900px; margin: 2rem auto; line-height: 1.6; }
+    header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; }
+    nav a.button { background: #0b6; color: white; padding: 0.4rem 0.8rem; border-radius: 6px; text-decoration: none; }
+    .cv { border: 1px solid #ddd; padding: 1rem; border-radius: 8px; margin-bottom: 2rem; }
+    .posts { margin-top: 2rem; }
+    .post { border-bottom: 1px dashed #ccc; padding: 1rem 0; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Your Name</h1>
+  <nav>
+    <a class="button" href="/resume.pdf" target="_blank">Download CV (PDF)</a>
+  </nav>
+</header>
+
+<section class="cv">
+  <h2>Resume Preview</h2>
+  <iframe src="/resume.pdf" style="width:100%; height:600px; border:0;"></iframe>
+</section>
+
+<section class="posts">
+  <h2>Blog / Notes</h2>
+
+  <div class="post">
+    <h3><a href="posts/2025-11-08-first-post.html">My First Post</a></h3>
+    <p>Short excerpt of my first post. Click to read more.</p>
+  </div>
+
+</section>
+
+</body>
+</html>
